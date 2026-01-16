@@ -32,9 +32,9 @@ export class UsersService {
     const result = await this.userRepository.delete(id);
 
     if (result.affected === 0) {
-      throw new NotFoundException('Usuário não encontrado');
+      throw new NotFoundException('usuario nao encontrado');
     }
 
-    return { message: 'Usuário removido com sucesso' };
+    return { message: 'asuario removido' };
   }
 }
