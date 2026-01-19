@@ -35,6 +35,6 @@ export class UsersService {
       throw new NotFoundException('usuario nao encontrado');
     }
 
-    return { message: 'asuario removido' };
+    return { message: 'Usuario Removido' };
   }
 }
